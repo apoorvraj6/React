@@ -10,11 +10,22 @@ function App() {
   // let counter =5 ;
 
   const addvalue = () =>{
+    if(counter+1 === 21)
+    {
+      setCounter(20);
+    }
+    else
     setCounter(counter + 1)
-    console.log("clicked",counter)
+    
   }
   const removevalue = () =>{
+    if(counter-1 === -1)
+    {
+      setCounter(0)
+    }
+    else
     setCounter(counter-1);
+    
     
   }
 
