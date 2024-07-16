@@ -8,7 +8,8 @@
 		"vscode": {
 			"extensions": [
 				"bradlc.vscode-tailwindcss",
-				"mgm793.react-functional-snippet"
+				"mgm793.react-functional-snippet",
+				"rodrigovallades.es7-react-js-snippets"
 			]
 		}
 	}
